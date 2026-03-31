@@ -17,6 +17,8 @@ class Config(object):
     OPENAPI_URL_PREFIX = "/"
     OPENAPI_SWAGGER_UI_PATH = "/docs"
     OPENAPI_SWAGGER_UI_URL = "https://cdn.jsdelivr.net/npm/swagger-ui-dist/"
+    SECRET_KEY = "mysecretkey123"
+    JWT_SECRET_KEY = "jwtsecretkey123"
 
 
 class DevelopmentConfig(Config):
